@@ -1,0 +1,9 @@
+{
+	"name": "azuretelanganafactory",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "6f824645-a87f-4fa3-a28b-03ac798a8dab",
+		"tenantId": "b36c278d-9ff4-46b6-996a-062dd95820a2"
+	}
+}
