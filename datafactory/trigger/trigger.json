@@ -1,0 +1,25 @@
+{
+	"name": "trigger",
+	"properties": {
+		"annotations": [],
+		"runtimeState": "Started",
+		"pipelines": [
+			{
+				"pipelineReference": {
+					"referenceName": "Onpremtocloudpiepline",
+					"type": "PipelineReference"
+				}
+			}
+		],
+		"type": "ScheduleTrigger",
+		"typeProperties": {
+			"recurrence": {
+				"frequency": "Hour",
+				"interval": 15,
+				"startTime": "2026-04-17T04:40:00",
+				"endTime": "2026-04-18T10:37:00",
+				"timeZone": "India Standard Time"
+			}
+		}
+	}
+}
