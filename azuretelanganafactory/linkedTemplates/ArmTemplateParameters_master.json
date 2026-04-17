@@ -1,0 +1,30 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "azuretelanganafactory"
+		},
+		"AzureDataLakeStorage1_accountKey": {
+			"value": ""
+		},
+		"Filelocation_password": {
+			"value": ""
+		},
+		"AzureDataLakeStorage1_properties_typeProperties_url": {
+			"value": "https://auzretelanganast.dfs.core.windows.net/"
+		},
+		"Filelocation_properties_typeProperties_host": {
+			"value": "C:\\Users\\azuretelangana\\Downloads\\CRM+Sales+Opportunities"
+		},
+		"Filelocation_properties_typeProperties_userId": {
+			"value": "azuretelangana"
+		},
+		"containerUri": {
+			"value": ""
+		},
+		"containerSasToken": {
+			"value": ""
+		}
+	}
+}
